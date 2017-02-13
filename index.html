@@ -6,8 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <link  href="../img/icon.ico" >
-    <title>For my beloved Wife</title>
+    <title>For my Darling</title>
     <!-- Bootstrap -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -125,13 +124,27 @@ document.body.style.overflow = 'hidden';
                     <hr class='wow fadeIn' data-wow-duration='1s'> </div>
             </div>
         </section>
-        <section class="darling section" data-anchor='lastPage'>
+        <section class="darling section wow fadeIn" data-anchor='6thPage'>
             <div class="container">
                 <div class="row">
                     <h1 class="wow zoomIn" data-wow-duration='2s' data-wow-delay='1s'> For darling with love</h1> </div>
             </div>
         </section>
-    </div>
+            <section class="autor section" data-anchor='6thPage' >
+        <div class="container">
+            <div class="row">
+               <div class="col-md-12"></div>
+                <h1 class=" wow rollIn" data-wow-duration='2s' data-wow-delay='1s'>Another thing from Aleksandr Zadorozhnykh</h1>
+                <p class='wow fadeIn'  data-wow-duration='3.5s' data-wow-delay='2s'>This site was made for my beloved wife on Valentine's Day in 2017</p>
+                <hr>
+                </div>
+            </div></section>
+            
+        </div>
+    
+
+    
+
   
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!--    Bootstrap JS   -->
@@ -150,7 +163,6 @@ document.body.style.overflow = 'hidden';
         $(function () {
             new WOW().init();
             $('#fullpage').fullpage({
-                // WOWはスクロールイベントを感知しているので、scrollBar:trueにする必要がある
                 scrollBar: true
             });
         });
